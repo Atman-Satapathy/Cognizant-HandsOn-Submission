@@ -1,0 +1,36 @@
+1.ServiceNow is a cloud-based platform designed to automate service management processes and workflow within organizations. Its initial purpose is to improve efficiency and effectiveness by providing a system for managing workflows, incidents, requests, changes, and other IT-related tasks.
+
+2.The ServiceNow platform is designed with an architecture to support automation. Its architecture include a robust framework for applications, efficient User Interface, Knowledge Bases (KB) and Access Control Lists (ACL).
+
+3.Utilizing and deploying ServiceNow services involves a well-defined infrastructure that ensures smooth operation across various environments such as Cloud-Based Environment, Multi Tenant Infrastructure and Instance Management along with User Training. ServiceNow operates on a cloud-based infrastructure hosted in data centers. This gives high availability and scalability. The platform is reliant and secure. ServiceNow uses a multi-tenant infrastructure where multiple customers share the same instance but have their have different data and settings which are user isolated. Instances are live environments where users interact with ServiceNow services. It is configured with the organization-specific customization. Along with that, separate instances are used for development and testing. These instances allow developers to test new features in a safe environment which won't affect the organization.
+
+4.Service Portal has Catalog Items, Knowledge Bases and Incidents.
+Platform UI has Application Navigator, Header and Content Frames while Header consist of navigation button, user profile and global search.
+Application Navigator has Search, favorites and menu.
+There are Incidents, Dashboards and Reports.
+There is Process Automation and Access Control.
+And there is User Profile which consist of change password, log out, impersonate user, elevate user role.
+
+5.Import Sets imports data from external sources into ServiceNow and are tables used to transform data before it is inserted into the ServiceNow database.
+
+Report Creation generate reports to analyze data. Reports are of different types: 
+
+List Report: Displays data in tabular format.
+Chart Report: Visualizes data using charts
+Performance Analytics Widgets: Shows data in performance dashboards with KPIs.
+
+Report Management automate report generation and distribution. through scheduling and setting report permissions and sharing them
+
+6.Core Components of the ServiceNow Data Model are Tables(Base, Core, Custom and Extended), Fields(Standard and Custom), Views(List View, Form View) and Records
+Ther relationship is how reporting works in Service Now. As we can report tables and anazlyze it through Metric and KPIs.
+
+8.Data visualization plays an important role in decision-making by changing data into easy to understand information. It simplifies Data, improves analysis, help understand patterns, and facilitates the communication to effectively support the decision making process.
+
+10.Customizing the ServiceNow user interface through branding tools gives organizations the capability to change the appearence of the platofrm to suite their brand logo and identity and it improves the user understanding of what they are looking at. It's done by customizing UI Themes to match their company color and logo, their brand name, their website title and customizing the Service Portat, and finally Publishing Customizations for any online users to understand which company they are dealing with.
+
+12.Low Code and No Code Development are techniques for creating applications and automating processes with small or no knowledge about coding. These are used in the context of digital transformation due to their ability to empower a broader range of users to participate in application development and lower the high skill required to automate workflows effectively.
+
+13. Pros of Low Code No Code is that users take less time to develop applications, it's time and cost efficient and that it empowers users with low technical skills.
+Cons of Low Code No Code is that it has somewhat limites amount of customization possible, it's has some security issues which causes the degradation of Quality and Performance issues. It has a high learning curve and has somewhat minimal support when you customize heavily.
+
+14.The job oppurtunities are Low Code/No Code Developer, Business Analyst, Product Manager, Data Scientist/Analyst and IT Consultant. It also empowers citizens with no technical skill to also become developers in that platform.
