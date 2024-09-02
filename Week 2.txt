@@ -1,0 +1,20 @@
+1.ServiceNow is a cloud-based platform designed to automate service management processes and workflow within organizations. Its initial purpose is to improve efficiency and effectiveness by providing a system for managing workflows, incidents, requests, changes, and other IT-related tasks.
+The ServiceNow platform is designed with an architecture to support automation. Its architecture include a robust framework for applications, efficient User Interface, Knowledge Bases (KB) and Access Control Lists (ACL).
+
+2.Utilizing and deploying ServiceNow services involves a well-defined infrastructure that ensures smooth operation across various environments such as Cloud-Based Environment, Multi Tenant Infrastructure and Instance Management along with User Training. ServiceNow operates on a cloud-based infrastructure hosted in data centers. This gives high availability and scalability. The platform is reliant and secure. ServiceNow uses a multi-tenant infrastructure where multiple customers share the same instance but have their have different data and settings which are user isolated. Instances are live environments where users interact with ServiceNow services. It is configured with the organization-specific customization. Along with that, separate instances are used for development and testing. These instances allow developers to test new features in a safe environment which won't affect the organization.
+
+3.Core Components of the ServiceNow Data Model are Tables(Base, Core, Custom and Extended), Fields(Standard and Custom), Views(List View, Form View) and Records
+Ther relationship is how reporting works in Service Now. As we can report tables and anazlyze it through Metric and KPIs.
+
+4.Import Sets imports data from external sources into ServiceNow and are tables used to transform data before it is inserted into the ServiceNow database.
+
+5.The ServiceNow platform is designed with an architecture to support automation. Its architecture include a robust framework for applications, efficient User Interface, Knowledge Bases (KB) and Access Control Lists (ACL).
+
+6.Configuration Management Database (CMDB) helps organizations manage and track their IT and system configurations. The CMDB maintains a repository of information related to the hardware, software, and other components of an IT infrastructure.
+
+7.Knowledge Base (KB) is a collection of articles, documents, and information created to help users get answers to their questions. The Knowledge Base is a important component of the ServiceNow platform, having knowledge management and self-service functions.
+
+8. Update sets are used to move customizations and configurations from one ServiceNow instance to another. They help in tracking changes and managing deployments.
+Events are used to trigger notifications or actions based on specific conditions or changes within ServiceNow. They help automate workflows and inform users about critical system activities.
+Platform statistics provide insights into system performance, usage, and overall health. They are crucial for monitoring and optimizing ServiceNow instances.
+
