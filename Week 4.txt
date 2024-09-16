@@ -1,0 +1,52 @@
+1. Since ServiceNow scripting relies heavily on JavaScript, having a solid grasp of JavaScript basics is crucial. This includes understanding variables, data types, functions, control structures, and object-oriented programming principles.
+Client Scripts- Run on the client-side (browser) and are used to manage form behavior and client-side logic.
+Server Scripts- Execute on the server-side and include Business Rules, Script Includes, Scheduled Jobs, and REST APIs.
+UI Actions- Allow customization of form buttons, context menu options, and other user interface elements.
+Business Rules- Run server-side logic in response to record operations (insert, update, delete).
+Script Includes- Reusable server-side scripts that can be called from other scripts.
+
+Variables and Data Types
+Variables: Variables store data values and are declared using var, let, or const.
+
+var is function-scoped and can be re-declared.
+let is block-scoped and can be re-assigned but not re-declared within the same scope.
+const is block-scoped and cannot be re-assigned or re-declared.
+
+Primitive Types: Strings, Numbers, Booleans, null, undefined, and Symbols.
+Object Types: Arrays, Functions, and more complex objects.
+
+Arithmetic Operators: +, -, *, /, %, etc.
+
+Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+
+Logical Operators: && (AND), || (OR), ! (NOT)
+
+Conditionals: if, else if, else, switch
+
+Loops: for, while, do...while
+
+Function Declaration: A named function can be declared using the function keyword.
+
+Function Expression: Functions can also be assigned to variables.
+
+Arrow Functions: A concise syntax for writing functions.
+
+Objects: Key-value pairs where keys are strings and values can be any data type.
+
+Arrays: Ordered collections of values.
+
+Try...Catch: Used to handle exceptions and errors gracefully.
+
+2.Different Client Scripts are:
+onLoad()- Executes when a form is loaded.
+onChange()- Runs when a field value changes.
+onSubmit()- Executes when a form is submitted.
+onCellEdit()- Triggered when a cell value is changed in a list.
+
+4.Minimize the use of synchronous GlideRecord queries in client scripts and avoid excessive use of gs.info() in production environments. 
+Use the ServiceNow Script Debugger and logs to test and debug scripts. Ensure you handle errors gracefully to prevent disruptions.
+Be mindful of script execution times, especially in business rules and scheduled jobs. Optimize queries and avoid unnecessary operations.
+
+5.Automate Notifications- Write scripts to automatically notify users based on specific conditions (e.g., SLA breaches).
+Custom Form Logic- Implement custom form logic to validate data or auto-populate fields based on user input or other conditions.
+Integrate with External Systems- Use REST APIs and script includes to integrate ServiceNow with external systems and automate data exchange.
